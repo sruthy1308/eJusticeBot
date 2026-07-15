@@ -109,6 +109,15 @@ To add a new topic, just append an entry to `intents.json` with a `tag`, `patter
 
 ---
 
+## 🙋‍♀️ Author
+
+**Sruthy S**
+B.Tech CSE Student · LBSITW, KTU
+📧 sruthy0813@gmail.com
+🔗 [LinkedIn](https://linkedin.com/in/sruthy-s-149b12301) · [GitHub](https://github.com/sruthy1308)
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome. To add new legal topics:
