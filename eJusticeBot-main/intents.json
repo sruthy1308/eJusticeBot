@@ -1,0 +1,197 @@
+{
+  "intents": [
+    {
+      "tag": "know_my_rights",
+      "patterns": [
+        "What are my fundamental rights?",
+        "Tell me about constitutional rights",
+        "What rights do I have as an Indian citizen?"
+      ],
+      "responses": [
+        "As an Indian citizen, you have the following Fundamental Rights:\n1. Right to Equality\n2. Right to Freedom\n3. Right against Exploitation\n4. Right to Freedom of Religion\n5. Cultural and Educational Rights\n6. Right to Constitutional Remedies\n\nYou can learn more at: https://www.india.gov.in/my-government/constitution-india/fundamental-rights"
+      ]
+    },
+    {
+      "tag": "file_fir",
+      "patterns": [
+        "How can I file an FIR?",
+        "I want to file a police complaint",
+        "Where do I register an FIR?"
+      ],
+      "responses": [
+        "Steps to file an FIR:\n1. Visit your nearest police station.\n2. Give details of the incident orally or in writing.\n3. The officer must write it down and read it back to you.\n4. Sign the FIR copy.\n5. Receive a free copy of the FIR.\n\nOnline FIRs are also possible in some states. Refer: https://digitalpolice.gov.in"
+      ]
+    },
+    {
+      "tag": "consumer_rights",
+      "patterns": [
+        "What are consumer rights in India?",
+        "Can I complain about a faulty product?",
+        "How to file a consumer complaint?"
+      ],
+      "responses": [
+        "Your consumer rights include:\n1. Right to Safety\n2. Right to Information\n3. Right to Choose\n4. Right to be Heard\n5. Right to Redressal\n6. Right to Consumer Education\n\nTo file a complaint:\n1. Visit https://consumerhelpline.gov.in\n2. Register/Login\n3. File complaint with details and proof\n\nYou can also approach the District/State/National Consumer Forum."
+      ]
+    },
+    {
+      "tag": "rti_info",
+      "patterns": [
+        "What is RTI?",
+        "How to file an RTI application?",
+        "I need information from a government office"
+      ],
+      "responses": [
+        "Steps to file RTI:\n1. Write your query to the PIO of the concerned department.\n2. Pay a fee (usually ₹10).\n3. Submit online at https://rtionline.gov.in or offline.\n4. Get a reply within 30 days.\n\nMore info: https://rti.gov.in"
+      ]
+    },
+    {
+      "tag": "cyber_crime",
+      "patterns": [
+        "How to report cyber crime?",
+        "Someone hacked my account",
+        "I'm being harassed online"
+      ],
+      "responses": [
+        "Steps to report Cyber Crime:\n1. Visit https://cybercrime.gov.in\n2. Select 'Report Other Cyber Crimes'\n3. Register/Login\n4. Submit complaint with evidence (screenshots, chat logs, etc.)\n5. You may also visit the nearest cyber cell or police station."
+      ]
+    },
+    {
+      "tag": "women_rights",
+      "patterns": [
+        "What are women's rights in India?",
+        "Protection for women",
+        "Laws for women safety"
+      ],
+      "responses": [
+        "Women in India are protected by:\n1. The Domestic Violence Act\n2. Dowry Prohibition Act\n3. IPC Section 354 (Assault)\n4. IPC Section 376 (Rape)\n5. Maternity Benefits Act\n\nHelpline: 181 (Women Helpline)\nOnline complaint: https://ncwapps.nic.in/onlinecomplaintsv2/"
+      ]
+    },
+    {
+      "tag": "child_rights",
+      "patterns": [
+        "Rights of children in India",
+        "Child labor laws",
+        "Education rights for kids"
+      ],
+      "responses": [
+        "Children are protected by:\n1. Right to Education (RTE Act)\n2. Prohibition of Child Labour Act\n3. Juvenile Justice (JJ) Act\n4. Protection of Children from Sexual Offences (POCSO) Act\n\nEducation is free and compulsory up to 14 years. Child labour is illegal under 14.\n\nMore info: https://ncpcr.gov.in"
+      ]
+    },
+    {
+      "tag": "property_rights",
+      "patterns": [
+        "Property rights for women",
+        "Can daughters inherit property?",
+        "Hindu Succession Act"
+      ],
+      "responses": [
+        "Under Hindu Succession (Amendment) Act 2005:\n1. Daughters have equal rights in ancestral property.\n2. They are treated as coparceners like sons.\n3. They can demand partition and have equal share.\n\nMore info: https://legislative.gov.in"
+      ]
+    },
+    {
+      "tag": "court_case_status",
+      "patterns": [
+        "How to check case status online?",
+        "Where is my court case now?",
+        "Check case progress"
+      ],
+      "responses": [
+        "Steps to check case status:\n1. Visit https://ecourts.gov.in\n2. Click on 'Services' > 'Case Status'\n3. Enter case number / party name / advocate name / FIR number\n4. View the latest status, hearing date, and judge details"
+      ]
+    },
+    {
+      "tag": "legal_aid",
+      "patterns": [
+        "Free legal aid",
+        "Can I get free lawyer?",
+        "I can't afford a lawyer"
+      ],
+      "responses": [
+        "Free legal aid is available through:\n1. District Legal Services Authority (DLSA)\n2. State Legal Services Authority\n3. Supreme Court Legal Services Committee\n\nSteps:\n1. Apply via https://nalsa.gov.in\n2. Provide ID and income proof\n3. Legal aid will be assigned based on eligibility."
+      ]
+    },
+    {
+      "tag": "IPC Section 302",
+      "patterns": ["What is IPC 302?", "Tell me about Section 302", "Punishment for murder"],
+      "responses": [
+        "IPC Section 302 - **Punishment for Murder**:\n1. Applies when a person commits murder with intention.\n2. Punishment: Death penalty or life imprisonment + fine.\n\nRead more: https://indiankanoon.org/doc/1130539/"
+      ]
+    },
+    {
+      "tag": "IPC Section 376",
+      "patterns": ["What is IPC 376?", "Tell me about rape laws", "Punishment for rape"],
+      "responses": [
+        "IPC Section 376 - **Punishment for Rape**:\n1. Rigorous imprisonment not less than 10 years (can extend to life).\n2. Fine is mandatory.\n3. Higher punishment if victim is minor or crime is committed by person in authority.\n\nReference: https://indiankanoon.org/doc/623254/"
+      ]
+    },
+    {
+      "tag": "IPC Section 420",
+      "patterns": ["What is IPC 420?", "Cheating law in IPC", "Section 420 explanation"],
+      "responses": [
+        "IPC Section 420 - **Cheating and dishonest delivery of property**:\n1. Applies when a person deceives to gain property unlawfully.\n2. Punishment: Up to 7 years imprisonment + fine.\n\nDetails: https://indiankanoon.org/doc/1858451/"
+      ]
+    },
+    {
+      "tag": "IPC Section 498A",
+      "patterns": ["What is IPC 498A?", "Dowry harassment law", "Section 498A IPC"],
+      "responses": [
+        "IPC Section 498A - **Cruelty by husband or relatives**:\n1. Covers physical/mental harassment or dowry-related abuse.\n2. Punishment: Up to 3 years + fine.\n3. Non-bailable and cognizable offense.\n\nMore: https://indiankanoon.org/doc/563046/"
+      ]
+    },
+    {
+      "tag": "IPC Section 144",
+      "patterns": ["What is IPC 144?", "Section 144 meaning", "Curfew rules in India"],
+      "responses": [
+        "IPC Section 144 - **Power to issue order in urgent cases of nuisance or danger**:\n1. Prohibits gathering of 4 or more people in an area.\n2. Enforced to prevent riots or danger to peace.\n3. Usually imposed temporarily by district magistrate.\n\nMore info: https://indiankanoon.org/doc/1030634/"
+      ]
+    },
+    {
+      "tag": "IPC Section 307",
+      "patterns": ["What is IPC 307?", "Attempt to murder law", "Section 307 punishment"],
+      "responses": [
+        "IPC Section 307 - **Attempt to Murder**:\n1. If intent and act both point to murder attempt.\n2. Punishment: Up to 10 years or life imprisonment + fine.\n\nLearn more: https://indiankanoon.org/doc/1501362/"
+      ]
+    },
+    {
+      "tag": "IPC Section 34",
+      "patterns": ["What is IPC 34?", "Common intention law", "Section 34 explanation"],
+      "responses": [
+        "IPC Section 34 - **Acts done by several persons in furtherance of common intention**:\n1. If crime is done jointly, all are equally liable.\n2. Used in combination with other sections.\n\nMore: https://indiankanoon.org/doc/1796953/"
+      ]
+    },
+    {
+      "tag": "IPC Section 120B",
+      "patterns": ["What is IPC 120B?", "Criminal conspiracy law", "Explain Section 120B"],
+      "responses": [
+        "IPC Section 120B - **Criminal Conspiracy**:\n1. Agreement between two or more people to do an illegal act.\n2. Punishment depends on offense committed. Can range from fine to life imprisonment.\n\nDetails: https://indiankanoon.org/doc/1306468/"
+      ]
+    },
+    {
+      "tag": "IPC Section 354",
+      "patterns": ["What is IPC 354?", "Molestation law in India", "Section 354 punishment"],
+      "responses": [
+        "IPC Section 354 - **Assault on woman with intent to outrage her modesty**:\n1. Covers touching, gestures, or physical assault.\n2. Punishment: 1-5 years + fine.\n\nMore: https://indiankanoon.org/doc/1301993/"
+      ]
+    },
+    {
+      "tag": "IPC Section 341",
+      "patterns": ["What is IPC 341?", "Wrongful restraint law", "Section 341 IPC meaning"],
+      "responses": [
+        "IPC Section 341 - **Wrongful Restraint**:\n1. Preventing someone from moving freely (without authority).\n2. Punishment: Up to 1 month or ₹500 fine or both.\n\nRead: https://indiankanoon.org/doc/958164/"
+      ]
+    },
+    {
+      "tag": "accident_procedure",
+      "patterns": [
+        "I met with an accident, what should I do?",
+        "What steps should I take after an accident?",
+        "What to do when involved in a road accident?",
+        "Legal procedure after a vehicle accident",
+        "Help after accident"
+      ],
+      "responses": [
+        "Here is what you should do step-by-step after a road accident:\n\n1. **Ensure Safety** – Check yourself and others for injuries.\n2. **Call Emergency Services** – Dial 112 for ambulance/police.\n3. **Don’t Move Vehicles** – Unless necessary, wait for police.\n4. **Take Photos** – Document the scene, damage, number plates.\n5. **Exchange Information** – Names, contact, license, insurance.\n6. **File FIR** – Visit the nearest police station or call them to the site.\n7. **Visit Hospital** – Even for minor injuries, get checked.\n8. **Inform Insurance Company** – Share FIR and medical reports.\n\nWould you like guidance on filing an FIR or insurance claim?"
+      ]
+    }
+  ]
+}
